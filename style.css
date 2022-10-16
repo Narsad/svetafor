@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.str{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 60px;
+    height: 180px;
+    background-color: darkgray;
+    margin-top: 40px;
+}
+.bol{
+    width: 58px;
+    height: 58px;
+    background-color: rgb(71, 70, 70);
+    border: 1px gray solid;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: rgb(71, 70, 70);
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: 3;
+}
+@keyframes example {
+    0% {background-color: rgb(71, 70, 70);}
+    50%{background-color: orange;}
+    100% {background-color: rgb(71, 70, 70);}
+  }
